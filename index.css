@@ -1,0 +1,260 @@
+/*----------- Menu-bar-------------*/
+#menu{
+    width:100%;
+    height:40px;
+    background-color: rgba(12, 11, 11, 0.849);
+    padding-top: 16px;
+}
+
+#menu a{
+    color:burlywood;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: bolder;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+     color:saddlebrown;
+     
+}
+
+/*-------------a-tag-------------*/
+a {
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+
+/*----------- Main heading-------------*/
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: chocolate;
+    text-align: center;
+}
+
+/*-------main-para---------*/
+.main-para {
+    text-align: center;
+    color: saddlebrown;
+    font-weight: 800;
+}
+
+/*-----------Product item-------------*/
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 230px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    color: saddlebrown;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    color: #5a0202; 
+    border-color: saddlebrown; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.product button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: saddlebrown;
+}
+
+
+/*-----------Product-detail-------------*/
+
+.product-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-detail h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.product-detail p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.product-detail .was {
+    text-decoration: line-through;
+}
+
+.product-detail .price {
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+
+.product-detail .image-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.product-detail img {
+    max-width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 10px; 
+}
+
+.product-detail button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    align-items: left;
+}
+
+.product-detail button:hover {
+    background-color: saddlebrown;
+}
+
+
+
+/*-----------Product table-------------*/
+
+h3{
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+table {
+    font-family: helvetica, sans-serif;
+    border: 1px solid; 
+    color: chocolate;
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+th {
+    font-weight: 800;
+    background-color: rgba(248, 183, 136, 0.801);
+    color: saddlebrown;
+    border: 1px solid chocolate; 
+    text-align: center;
+}
+
+td {
+    border: 1px solid saddlebrown; 
+    padding: 8px; 
+}
+
+tr:hover {
+    background-color: rgba(248, 183, 136, 0.801);
+}
+
+/*-----------About-page-----------*/
+
+.about-pg {
+    margin: 20px;
+    padding: 20px;
+}
+
+.about-pg h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.about-pg h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.about-pg p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+}
+
+/*------------Contact-info----------*/
+
+.info h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+.info p {
+    color: saddlebrown;
+    font-weight: 600;
+}
+
+input{
+    width: 50%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid chocolate;
+}
+
+textarea{
+    width: 50%;
+    height :50px;
+    margin : 12px 0;
+    border : 1px solid chocolate;
+}
+
+.submit {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
